@@ -21,10 +21,9 @@ function plusX()
 }
 plusX();
 plusX();
-plusX();
-plusX();
-plusX();
-plusX();
-plusX();
-plusX();
+
+$a = [1,2,3,4,5,6,7,8];
+echo "gia tri cua a[5]".$a[5]."<br>";
+$a1 = ["key1" => 1, "key2" => "hello world"];
+echo $a1["key2"]
 ?>
