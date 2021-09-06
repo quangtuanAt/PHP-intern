@@ -29,8 +29,8 @@ if (isset($_POST['search'])) {
 }
 ?>
 <div class="container-fluid bg-3 text-center">
-  <h3>CRUD Example Using PHP OOPS And PostgreSQL</h3>
-  <a href="insert.php" class="btn btn-primary pull-right" style='margin-top:-30px'><span class="glyphicon glyphicon-plus-sign"></span> Add Record</a>
+  <h3>Quản lý học sinh </h3>
+  <a href="insert.php" class="btn btn-primary pull-right" style='margin-top:-30px'><span class="glyphicon glyphicon-plus-sign"></span> ADD Student</a>
   <form method="post">
     <input type="text" name="searchName" placeholder="Seach by name">
     <input type="submit" value="Search" name="search"></input>
@@ -38,7 +38,7 @@ if (isset($_POST['search'])) {
   <br>
 
   <div class="panel panel-primary">
-    <div class="panel-heading">CRUD Example Using PHP OOPS And PostgreSQL</div>
+    
 
     <div class="panel-body">
       <table class="table table-bordered table-striped">

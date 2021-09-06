@@ -10,13 +10,14 @@ if($ret_val==1){
 }
 }
 ?>
+<div id="msg">
 <div class="container-fluid bg-3 text-center">    
-  <h3>CRUD Example Using PHP OOPS And PostgreSQL</h3>
-  <a href="index.php" class="btn btn-primary pull-right" style='margin-top:-30px'><span class="glyphicon glyphicon-eye-open"></span> View Records</a>
+  <h3>Quản lý học sinh</h3>
+  <a href="index.php" class="btn btn-primary pull-right" style='margin-top:-30px'><span class="glyphicon glyphicon-eye-open"></span> Home</a>
   <br>
   
   <div class="panel panel-primary">
-        <div class="panel-heading">CRUD Example Using PHP OOPS And PostgreSQL</div>
+     
             <form class="form-horizontal" method="post">
             <div class="panel-body">
              
@@ -50,3 +51,4 @@ if($ret_val==1){
 </div>
 </div>  
  
+</div>
